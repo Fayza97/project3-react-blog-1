@@ -20,7 +20,7 @@ class App extends Component {
         <Layout>
           <Container>
             <Route exact path="/" component={MainPage}/> 
-            <Route path="/categories" component={Categories}/> 
+            <Route path="/categories" component={Categories}/>
             <Route path="/posts" component={Posts}/> 
             <Route path="/comments" component={Comments}/> 
             <Route path="/users" component={Users}/> 
